@@ -1384,7 +1384,7 @@ th {
 }
 
 html {
-    font-size: 10px;
+    font-size: 12px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
@@ -2068,6 +2068,16 @@ pre code {
     padding-right: 15px;
     padding-left: 15px
 }
+.titre-col-sm-4 { padding-top: 50px;
+    padding-bottom: 10px;
+    color: #000000 ;
+    font-size: 14px;
+    font-weight: 600; 
+    
+}
+.col-sm-4 ul li {
+    margin: 10px 0px;
+}
 
 .col-xs-1,
 .col-xs-10,
@@ -2302,7 +2312,7 @@ pre code {
     .col-sm-8,
     .col-sm-9 {
         float: left
-    }
+    }   
     .col-sm-12 {
         width: 100%
     }
@@ -2330,6 +2340,9 @@ pre code {
     .col-sm-4 {
         width: 33.33333333%
     }
+   
+
+
     .col-sm-3 {
         width: 25%
     }
@@ -7682,7 +7695,6 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
